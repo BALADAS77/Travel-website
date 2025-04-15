@@ -1,0 +1,501 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Travel.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Travel.mwjqoxtjay.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\animations\\lottie-car.json",
+      "PackagePath": "staticwebassets\\animations\\lottie-car.json"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\animations\\lottie-compass.json",
+      "PackagePath": "staticwebassets\\animations\\lottie-compass.json"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\animations\\lottie-flight.json",
+      "PackagePath": "staticwebassets\\animations\\lottie-flight.json"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\animations\\lottie-globe.json",
+      "PackagePath": "staticwebassets\\animations\\lottie-globe.json"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\animations\\lottie-man.json",
+      "PackagePath": "staticwebassets\\animations\\lottie-man.json"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\animations\\lottie-walker.json",
+      "PackagePath": "staticwebassets\\animations\\lottie-walker.json"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\images\\1.png",
+      "PackagePath": "staticwebassets\\images\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\images\\2.png",
+      "PackagePath": "staticwebassets\\images\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\images\\3.png",
+      "PackagePath": "staticwebassets\\images\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\images\\4.png",
+      "PackagePath": "staticwebassets\\images\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\images\\Goa.jpg",
+      "PackagePath": "staticwebassets\\images\\Goa.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\images\\Manali.jpg",
+      "PackagePath": "staticwebassets\\images\\Manali.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\images\\Munnar.jpg",
+      "PackagePath": "staticwebassets\\images\\Munnar.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\images\\about-us\\about1.jpg",
+      "PackagePath": "staticwebassets\\images\\about-us\\about1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\images\\about-us\\about2.jpg",
+      "PackagePath": "staticwebassets\\images\\about-us\\about2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\images\\about-us\\about3.jpg",
+      "PackagePath": "staticwebassets\\images\\about-us\\about3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\images\\car.jpg",
+      "PackagePath": "staticwebassets\\images\\car.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\images\\customercentric.jpg",
+      "PackagePath": "staticwebassets\\images\\customercentric.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\images\\delhi\\India Gate – Icon of Patriotism.jpg",
+      "PackagePath": "staticwebassets\\images\\delhi\\India Gate – Icon of Patriotism.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\images\\delhi\\Jama Masjid.jpg",
+      "PackagePath": "staticwebassets\\images\\delhi\\Jama Masjid.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\images\\delhi\\Qutub Minar.jpg",
+      "PackagePath": "staticwebassets\\images\\delhi\\Qutub Minar.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\images\\delhi\\Red Fort.jpg",
+      "PackagePath": "staticwebassets\\images\\delhi\\Red Fort.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\images\\flight.jpg",
+      "PackagePath": "staticwebassets\\images\\flight.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\images\\goa\\Baga Beach.jpg",
+      "PackagePath": "staticwebassets\\images\\goa\\Baga Beach.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\images\\goa\\Basilica of Bom Jesus.jpg",
+      "PackagePath": "staticwebassets\\images\\goa\\Basilica of Bom Jesus.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\images\\goa\\Dudhsagar Waterfalls.jpg",
+      "PackagePath": "staticwebassets\\images\\goa\\Dudhsagar Waterfalls.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\images\\goa\\Palolem Beach.jpg",
+      "PackagePath": "staticwebassets\\images\\goa\\Palolem Beach.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\images\\himachal\\Kasol – Backpacker’s Paradise.jpg",
+      "PackagePath": "staticwebassets\\images\\himachal\\Kasol – Backpacker’s Paradise.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\images\\himachal\\Rohtang Pass.jpg",
+      "PackagePath": "staticwebassets\\images\\himachal\\Rohtang Pass.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\images\\himachal\\Spiti Valley.jpg",
+      "PackagePath": "staticwebassets\\images\\himachal\\Spiti Valley.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\images\\introimage.jpg",
+      "PackagePath": "staticwebassets\\images\\introimage.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\images\\introimg.png",
+      "PackagePath": "staticwebassets\\images\\introimg.png"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\images\\kerala\\Alappuzha.jpg",
+      "PackagePath": "staticwebassets\\images\\kerala\\Alappuzha.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\images\\kerala\\Athirappilly – Waterfalls.jpg",
+      "PackagePath": "staticwebassets\\images\\kerala\\Athirappilly – Waterfalls.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\images\\kerala\\Fort Kochi – Heritage Street Scene.jpg",
+      "PackagePath": "staticwebassets\\images\\kerala\\Fort Kochi – Heritage Street Scene.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\images\\kerala\\Kovalam – Beachside Lighthouse.jpg",
+      "PackagePath": "staticwebassets\\images\\kerala\\Kovalam – Beachside Lighthouse.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\images\\kerala\\Munnar – Tea Plantations.jpg",
+      "PackagePath": "staticwebassets\\images\\kerala\\Munnar – Tea Plantations.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\images\\kerala\\Thekkady – Periyar Wildlife Sanctuary.jpg",
+      "PackagePath": "staticwebassets\\images\\kerala\\Thekkady – Periyar Wildlife Sanctuary.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\images\\kerala\\Varkala – Cliff Beach View.jpg",
+      "PackagePath": "staticwebassets\\images\\kerala\\Varkala – Cliff Beach View.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\images\\kerala\\Wayanad – Banasura Sagar Dam & Hills.jpg",
+      "PackagePath": "staticwebassets\\images\\kerala\\Wayanad – Banasura Sagar Dam & Hills.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\images\\mumbai\\Gateway of India – Iconic Monument.jpg",
+      "PackagePath": "staticwebassets\\images\\mumbai\\Gateway of India – Iconic Monument.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\images\\mumbai\\Marine Drive – Queen’s Necklace.jpg",
+      "PackagePath": "staticwebassets\\images\\mumbai\\Marine Drive – Queen’s Necklace.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\images\\paper.jpg",
+      "PackagePath": "staticwebassets\\images\\paper.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\images\\rajasthan\\Amber Fort.jpg",
+      "PackagePath": "staticwebassets\\images\\rajasthan\\Amber Fort.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\images\\tamilnadu\\Kodaikanal.jpg",
+      "PackagePath": "staticwebassets\\images\\tamilnadu\\Kodaikanal.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\images\\tamilnadu\\Mahabalipuram Shore Temple.jpg",
+      "PackagePath": "staticwebassets\\images\\tamilnadu\\Mahabalipuram Shore Temple.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\images\\tamilnadu\\Marina Beach.jpg",
+      "PackagePath": "staticwebassets\\images\\tamilnadu\\Marina Beach.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\images\\tamilnadu\\Meenakshi Temple.jpg",
+      "PackagePath": "staticwebassets\\images\\tamilnadu\\Meenakshi Temple.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\images\\tamilnadu\\Ooty – Hill Station.jpg",
+      "PackagePath": "staticwebassets\\images\\tamilnadu\\Ooty – Hill Station.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\images\\tamilnadu\\Pamban Bridge & Temple.jpg",
+      "PackagePath": "staticwebassets\\images\\tamilnadu\\Pamban Bridge & Temple.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\images\\tamilnadu\\Thanjavur Brihadeeswarar Temple.jpg",
+      "PackagePath": "staticwebassets\\images\\tamilnadu\\Thanjavur Brihadeeswarar Temple.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\images\\tamilnadu\\Yercaud.jpg",
+      "PackagePath": "staticwebassets\\images\\tamilnadu\\Yercaud.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\images\\tourspot.jpg",
+      "PackagePath": "staticwebassets\\images\\tourspot.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\images\\train.jpg",
+      "PackagePath": "staticwebassets\\images\\train.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\images\\trust.jpg",
+      "PackagePath": "staticwebassets\\images\\trust.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\images\\up\\tajmahal.jpg",
+      "PackagePath": "staticwebassets\\images\\up\\tajmahal.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\images\\volvo.jpg",
+      "PackagePath": "staticwebassets\\images\\volvo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Bala Ganesh\\source\\repos\\Travel\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Travel.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Travel.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Travel.props",
+      "PackagePath": "build\\Travel.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Travel.props",
+      "PackagePath": "buildMultiTargeting\\Travel.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Travel.props",
+      "PackagePath": "buildTransitive\\Travel.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

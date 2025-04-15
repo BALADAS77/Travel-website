@@ -1,0 +1,304 @@
+﻿body {
+    font-family: 'Poppins', sans-serif;
+    z-index: 0;
+}
+
+h1, h2, h3 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav {
+    background-color: #2c3e50;
+    color: beige;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Vertically center nav items */
+    padding: 5px 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+    .nav h1 {
+        padding-left: 45px;
+        cursor: pointer;
+        font-size: xx-large;
+        padding-top: 5px;
+    }
+
+    .nav h1:hover{
+        color:lightcyan;
+    }
+
+    .menu-icon{
+        display:none;
+    }
+
+    .side-nav{
+        background-color: #1D232C;
+        width: 50%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        padding: 20px;
+        color: white;
+        display:none;
+        z-index:1 !important;
+    }
+
+        .side-nav p {
+            text-align: right;
+            font-size: 24px;
+            cursor: pointer;
+        }
+
+.side-nav-links ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 40px;
+}
+
+.side-nav-links li {
+    margin-bottom: 20px;
+}
+
+.side-nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    display: block;
+    padding: 10px 15px;
+    border-radius: 8px;
+}
+
+
+.anime {
+    width: 450px;
+    height: 350px;
+    margin: auto;
+}
+
+
+
+.nav-items ul {
+    display: flex;
+    list-style: none; /* Removes bullets or numbers */
+    margin: 0;
+    padding: 0;
+}
+
+.nav-items ul li a {
+    text-decoration: none; /* removes underline */
+    color: beige; /* same color as your navbar */
+    font-size: large;
+    padding: 5px 35px;
+    display: block; /* so the whole area is clickable */
+}
+
+.nav-items ul li a:hover {
+    background-color: #34495e;
+    border-radius: 5px;
+    color: rgb(9, 9, 241); /* or any hover color you like */
+}
+
+.carousel img {
+    height: 340px; /* Set your desired height */
+    object-fit: cover; /* Keeps aspect ratio, crops extra */
+    border-radius: 30px; /* Optional: round corners */
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+/* Why Choose Section Image Style */
+
+.why-choose {
+    background-color: #eaf6ff; /* Soft blue tone */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius:30px;
+}
+
+
+    .why-choose img {
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+        border: 3px solid #f0f0f0;
+    }
+
+        .why-choose img:hover {
+            transform: scale(1.1);
+            border-color: #007bff; /* Bootstrap primary */
+        }
+
+
+/* Travel vehicle section */
+
+.travel-vehicle-section {
+    background-color: #f0fff4; /* Very light mint */
+    padding: 60px 0;
+    margin-top:30px;
+}
+
+.vehicle-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    border: 3px solid #f0f0f0;
+}
+
+    .vehicle-img:hover {
+        transform: scale(1.1);
+        border-color: #007bff; /* Bootstrap primary */
+    }
+
+.travel-vehicle-card h6 {
+    margin-top: 10px;
+    font-weight: 600;
+    color: #333;
+}
+
+.travel-vehicle-card p {
+    font-size: 0.9rem;
+    color: #777;
+}
+
+/* Optional: Add spacing and background */
+.travel-vehicle-section {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+    border-radius: 12px;
+}
+
+
+/*papular places*/
+
+.dest {
+    background-image: url('/images/paper.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-bottom:10px;
+    padding-top:20px;
+}
+
+.hero-gradient {
+    background: linear-gradient(to right, #000000, #ffcc00); /* Black to Yellow */
+    color: white;
+}
+
+
+#searchBar {
+    max-width: 400px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+
+/*about us page*/
+
+.about-us {
+    background-color: #f0f8ff; /* or your preferred color */
+    min-height: 100vh;
+    width: 100%;
+    padding: 50px 0;
+}
+
+.about-us-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.is-invalid {
+    border-color: #dc3545 !important;
+    background-color: #fff0f0;
+}
+
+.is-valid {
+    border-color: #28a745 !important;
+}
+
+
+
+.footer {
+    background-color: #2c3e50;
+    color: beige;
+}
+
+
+@media screen and (max-width:600px) {
+    .nav h1 {
+        padding-left: 10px;
+        font-size: large;
+        cursor: pointer;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    .nav-items {
+        display: none;
+    }
+
+    .anime {
+        width: 300px !important;
+        height: 250px !important;
+        margin: 10px auto !important;
+        padding: 0px !important;
+    }
+
+    .introhead h1 {
+        font-size: medium;
+        padding-left: 5px !important;
+    }
+
+    .introhead {
+        font-size: small;
+        padding-left: 10px !important;
+    }
+
+    .introimg img {
+        width: 170px;
+        height: 200px;
+        padding-left: 0px;
+    }
+
+    .carousel img {
+        height: 180px !important;
+        object-fit: cover !important;
+        border-radius: 30px !important;
+        padding-top: 20px !important;
+        margin-top: 20px !important;
+       
+    }
+
+    .popimg img{
+        width:250px;
+        height:230px;
+    }
+
+}
+
+@media screen and (max-width:768px){
+    .nav h1 {
+        padding-left: 10px;
+        font-size: large;
+        cursor: pointer;
+    }
+    .nav-items ul li a {
+        text-decoration: none; /* removes underline */
+        color: beige; /* same color as your navbar */
+        font-size: large;
+        padding: 5px 20px !important;
+        display: block; /* so the whole area is clickable */
+    }
+} 
+
+
+

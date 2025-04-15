@@ -1,0 +1,196 @@
+﻿@{
+    ViewData["Title"] = "BG-Travel";
+}
+
+
+<!-- who we are section  -->
+
+<div id="lottieCarousel" class="carousel slide my-5" data-bs-ride="carousel" data-bs-interval="4000">
+    <div class="carousel-inner text-center">
+
+        <!-- Slide 1 -->
+        <div class="carousel-item active">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-6">
+                    <h1 class="text-warning fw-bold">Explore the Unknown</h1>
+                    <h4>Let your curiosity be your compass. Travel with us!</h4>
+                </div>
+                <div class="col-md-6 ">
+                    <div class="anime" id="lottie-compass"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="carousel-item">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-6">
+                    <h1 class="text-primary fw-bold">Ride with Comfort</h1>
+                    <h4>From buses to cars, your comfort is our priority.</h4>
+                </div>
+                <div class="col-md-6 ">
+                    <div class="anime" id="lottie-car" ></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="carousel-item">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-6">
+                    <h1 class="text-success fw-bold">Take Off to Adventure</h1>
+                    <h4>Fly to your dream destinations with us!</h4>
+                </div>
+                <div class="col-md-6">
+                    <div class="anime" id="lottie-flight" ></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 4 -->
+        <div class="carousel-item">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-6">
+                    <h1 class="text-danger fw-bold">Start Your Journey</h1>
+                    <h4>Every journey begins with a single step. Let's go!</h4>
+                </div>
+                <div class="col-md-6">
+                    <div class="anime" id="lottie-man" ></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 5 -->
+        <div class="carousel-item">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-6">
+                    <h1 class="text-primary fw-bold">Discover the World</h1>
+                    <h4>Expand your horizons, one trip at a time.</h4>
+                </div>
+                <div class="col-md-6">
+                    <div class="anime"  id="lottie-globe"></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+
+
+<div class="hero-gradient text-white">
+    <div class="container my-5">
+        <div class="row align-items-center">
+            <!-- Left: Text Content -->
+            <div class="col-8 col-md-6 ps-5 introhead">
+                <h1 class="mb-3 text-warning fw-bold">“Wander India’s Wonders with BG-Travel 🇮🇳 🌍”</h1>
+                <p class="mb-4">Unforgettable experiences await you. Find your next adventure today!</p>
+                <a class="btn btn-primary btn-lg" asp-controller="Home" asp-action="Packages">Get Started</a>
+            </div>
+
+            <!-- Right: Image -->
+            <div class="col-4 col-md-6 text-center pt-2 pb-2 introimg">
+                <img src="~/images/introimage.jpg" class="img-fluid rounded shadow" alt="Travel Adventure" style="max-height: 400px; object-fit: cover;">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="why-choose mt-5">
+    <div class="container my-5 ">
+        <h3 class="text-center mb-4 mt-4 text-danger fw-bold">Why Choose BG-Travel?</h3>
+        <div class="row text-center">
+            <!-- Point 1 -->
+            <div class="col-md-4 mb-4">
+                <img src="~/images/tourspot.jpg" alt="Pan-India Coverage" class="mb-3" style="width: 100px; height: 100px; object-fit: cover; border-radius: 50%;">
+                <h5>Pan-India Coverage</h5>
+                <p class="text-muted">We offer tours across all major Indian destinations from hills to heritage.</p>
+            </div>
+
+            <!-- Point 2 -->
+            <div class="col-md-4 mb-4">
+                <img src="~/images/customercentric.jpg" alt="Customer-Centric" class="mb-3" style="width: 100px; height: 100px; object-fit: cover; border-radius: 50%;">
+                <h5>Customer-Centric</h5>
+                <p class="text-muted">Our personalized support and friendly staff make your journey memorable.</p>
+            </div>
+
+            <!-- Point 3 -->
+            <div class="col-md-4 mb-4">
+                <img src="~/images/trust.jpg" alt="Trusted Experience" class="mb-3" style="width: 100px; height: 100px; object-fit: cover; border-radius: 50%;">
+                <h5>Trusted Experience</h5>
+                <p class="text-muted">Years of experience with happy travelers who keep coming back.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="travel-vehicle-section">
+    <div class="container my-5 mt-4">
+        <h3 class="text-center mb-4 text-primary fw-bold">Travel With Comfort</h3>
+        <div class="row text-center">
+            <!-- Flight -->
+            <div class="col-md-3 mb-4">
+                <img src="~/images/flight.jpg" alt="Flight" class="vehicle-img mb-2">
+                <h6>Flight</h6>
+                <p class="text-muted">Fast and convenient for long-distance travel.</p>
+            </div>
+
+            <!-- Volvo Bus -->
+            <div class="col-md-3 mb-4">
+                <img src="~/images/volvo.jpg" alt="Volvo Bus" class="vehicle-img mb-2">
+                <h6>Volvo Bus</h6>
+                <p class="text-muted">Smooth, air-conditioned rides for group comfort.</p>
+            </div>
+
+            <!-- Train -->
+            <div class="col-md-3 mb-4">
+                <img src="~/images/train.jpg" alt="Train" class="vehicle-img mb-2">
+                <h6>Train</h6>
+                <p class="text-muted">Scenic and affordable across Indian states.</p>
+            </div>
+
+            <!-- Private Car -->
+            <div class="col-md-3 mb-4">
+                <img src="~/images/car.jpg" alt="Private Car" class="vehicle-img mb-2">
+                <h6>Private Car</h6>
+                <p class="text-muted">Comfortable, flexible travel for families.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="dest mt-4">
+    <div class="container my-5 mt-4">
+        <h3 class="text-center mb-4 fw-bold">Popular Indian Destinations</h3>
+        <div class="row text-center popimg">
+            <!-- Goa -->
+            <div class="col-md-4 mb-4">
+                <img src="~/images/Goa.jpg" class="img-fluid rounded shadow" alt="Goa">
+                <h5 class="mt-3">Goa</h5>
+                <p class="text-muted">Beaches, nightlife, and Portuguese heritage.</p>
+            </div>
+
+            <!-- Manali -->
+            <div class="col-md-4 mb-4">
+                <img src="~/images/Manali.jpg" class="img-fluid rounded shadow" alt="Manali">
+                <h5 class="mt-3">Manali</h5>
+                <p class="text-muted">Snowy peaks, adventure sports, and cozy vibes.</p>
+            </div>
+
+            <!-- Munnar -->
+            <div class="col-md-4 mb-4">
+                <img src="~/images/Munnar.jpg" class="img-fluid rounded shadow" alt="Munnar">
+                <h5 class="mt-3">Munnar</h5>
+                <p class="text-muted">Tea gardens, misty hills, and serene landscapes.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+

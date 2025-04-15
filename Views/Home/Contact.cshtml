@@ -1,0 +1,101 @@
+﻿@{
+    ViewData["Title"] = "Contact-us";
+}
+
+<section class="container py-5">    
+    <h2 class="mb-4 text-center text-primary">Plan Your Journey</h2>
+
+    @if (TempData["SuccessMessage"] != null)
+    {
+        <div class="alert alert-success alert-dismissible fade show" role="alert">
+            @TempData["SuccessMessage"]
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    }
+
+    @if (TempData["ErrorMessage"] != null)
+    {
+        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+            @TempData["ErrorMessage"]
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    }
+
+
+    <form asp-action="Submit" asp-controller="Booking" method="post" class="row g-4">
+
+        <!-- Name -->
+        <div class="col-md-6">
+            <label for="Name" class="form-label">Full Name</label>
+            <input type="text" class="form-control" id="Name" name="Name" placeholder="Enter your name" required>
+        </div>
+
+        <!-- Email -->
+        <div class="col-md-6">
+            <label for="Email" class="form-label">Email Address</label>
+            <input type="email" class="form-control" id="Email" name="Email" placeholder="Enter your email" required>
+        </div>
+
+        <!-- Phone -->
+        <div class="col-md-6">
+            <label for="Phone" class="form-label">Phone Number</label>
+            <input type="tel" class="form-control" id="Phone" name="Phone" placeholder="indian number" required>
+        </div>
+
+        <!-- Start Location -->
+        <div class="col-md-6">
+            <label for="StartLocation" class="form-label">Start Location</label>
+            <input type="text" class="form-control" id="StartLocation" name="StartLocation" placeholder="e.g., Chennai" required>
+        </div>
+
+        <!-- Destination -->
+        <div class="col-md-6">
+            <label for="Destination" class="form-label">Destination</label>
+            <input type="text" class="form-control" id="Destination" name="Destination" placeholder="e.g., Munnar" required>
+        </div>
+
+        <!-- Mode of Transport -->
+        <div class="col-md-6">
+            <label for="Transport" class="form-label">Mode of Transport</label>
+            <select id="Transport" name="Transport" class="form-select" required>
+                <option selected disabled>Choose...</option>
+                <option>Flight</option>
+                <option>Train</option>
+                <option>Bus</option>
+                <option>Cab</option>
+                <option>Cruise</option>
+            </select>
+        </div>
+
+        <!-- Travel Date -->
+        <div class="col-md-6">
+            <label for="TravelDate" class="form-label">Travel Date</label>
+            <input type="date" class="form-control" id="TravelDate" name="TravelDate" required>
+        </div>
+
+        <!-- Travel Time -->
+        <div class="col-md-6">
+            <label for="travelTime" class="form-label">Preferred Time</label>
+            <input type="time" class="form-control" id="TravelTime" name="TravelTime">
+        </div>
+
+        <!-- Travelers -->
+        <div class="col-md-6">
+            <label for="travelers" class="form-label">Number of Travelers</label>
+            <input type="number" class="form-control" id="Travelers" name="Travelers" placeholder="e.g., 2" min="1" required>
+        </div>
+
+        <!-- Special Message -->
+        <div class="col-12">
+            <label for="message" class="form-label">Additional Notes / Special Requests</label>
+            <textarea class="form-control" id="Message" name="Message" rows="4" placeholder="Let us know your preferences..."></textarea>
+        </div>
+
+        <!-- Submit -->
+        <div class="col-12 text-center">
+            <button type="submit" class="btn btn-primary px-5">book now</button>
+        </div>
+
+    </form>
+</section>
+

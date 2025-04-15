@@ -1,0 +1,471 @@
+﻿@{
+    ViewData["Title"] = "Packages";
+}
+
+<div id="travelCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2500">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="~/images/1.png" class="d-block w-100 h-70" alt="Travel 1">
+        </div>
+        <div class="carousel-item">
+            <img src="~/images/2.png" class="d-block w-100 h-70" alt="Travel 2">
+        </div>
+        <div class="carousel-item">
+            <img src="~/images/3.png" class="d-block w-100 h-70" alt="Travel 3">
+        </div>
+        <div class="carousel-item">
+            <img src="~/images/4.png" class="d-block w-100 h-70" alt="Travel 4">
+        </div>
+    </div>
+
+    <!-- Navigation arrows (optional) -->
+    @* <button class="carousel-control-prev" type="button" data-bs-target="#travelCarousel" data-bs-slide="prev"> *@
+    @*     <span class="carousel-control-prev-icon"></span> *@
+    @* </button> *@
+    @* <button class="carousel-control-next" type="button" data-bs-target="#travelCarousel" data-bs-slide="next"> *@
+    @*     <span class="carousel-control-next-icon"></span> *@
+    @* </button> *@
+</div>
+
+
+
+
+<div class="container mt-5 ">
+    <input type="text" id="searchBar" class="form-control" placeholder="Search by state or destination...">
+</div>
+
+
+
+<div class="row" id="packageList">
+    <!-- tamilnadu section -->
+       
+        <div class="Tamilnadu">
+
+            <div class="row">
+
+                <h4 class="mt-4 mb-3">Tamilnadu Tourist Places</h4>
+                    <div class="col-6 col-md-4 col-lg-3 mb-4 package-card" data-location="tamilnadu">
+                        <div class="card h-100">
+                            <img src="~/images/tamilnadu/Ooty – Hill Station.jpg" class="card-img-top" alt="Ooty">
+                            <div class="card-body">
+                                <h5 class="card-title">Ooty</h5>
+                                <p class="card-text">A beautiful hill station in Tamil Nadu known for tea gardens and cool weather.</p>
+                                <a asp-controller="Home" asp-action="Contact" class="btn btn-primary" role="button">Book now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-md-4 col-lg-3 mb-4 package-card" data-location="tamilnadu">
+                        <div class="card h-100">
+                            <img src="~/images/tamilnadu/Yercaud.jpg" class="card-img-top" alt="Ooty">
+                            <div class="card-body">
+                                <h5 class="card-title">Yercaud</h5>
+                                <p class="card-text">A beautiful hill station in Tamil Nadu known for tea gardens and cool weather.</p>
+                        <a asp-controller="Home" asp-action="Contact" class="btn btn-primary" role="button">Book now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                <div class="col-6 col-md-4 col-lg-3 mb-4 package-card" data-location="tamilnadu">
+                    <div class="card h-100">
+                        <img src="~/images/tamilnadu/Kodaikanal.jpg" class="card-img-top" alt="Ooty">
+                        <div class="card-body">
+                            <h5 class="card-title">Kodaikanal</h5>
+                            <p class="card-text">A beautiful hill station in Tamil Nadu known for tea gardens and cool weather.</p>
+                        <a asp-controller="Home" asp-action="Contact" class="btn btn-primary" role="button">Book now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-4 col-lg-3 mb-4 package-card" data-location="tamilnadu">
+                    <div class="card h-100">
+                        <img src="~/images/tamilnadu/Mahabalipuram Shore Temple.jpg" class="card-img-top" alt="Ooty">
+                        <div class="card-body">
+                            <h5 class="card-title">Mahabalipuram</h5>
+                            <p class="card-text">A beautiful hill station in Tamil Nadu known for tea gardens and cool weather.</p>
+                        <a asp-controller="Home" asp-action="Contact" class="btn btn-primary" role="button">Book now</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+                
+
+            <div class="row">
+                
+
+                <div class="col-6 col-md-4 col-lg-3 mb-4 package-card" data-location="tamilnadu">
+                    <div class="card h-100">
+                        <img src="~/images/tamilnadu/Marina Beach.jpg" class="card-img-top" alt="Ooty">
+                        <div class="card-body">
+                            <h5 class="card-title">Marina beach</h5>
+                            <p class="card-text">A beautiful hill station in Tamil Nadu known for tea gardens and cool weather.</p>
+                            <a asp-controller="Home" asp-action="Contact" class="btn btn-primary" role="button">Book now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-4 col-lg-3 mb-4 package-card" data-location="tamilnadu">
+                    <div class="card h-100">
+                        <img src="~/images/tamilnadu/Meenakshi Temple.jpg" class="card-img-top" alt="Ooty">
+                        <div class="card-body">
+                            <h5 class="card-title">Meenakshi Temple</h5>
+                            <p class="card-text">A beautiful hill station in Tamil Nadu known for tea gardens and cool weather.</p>
+                        <a asp-controller="Home" asp-action="Contact" class="btn btn-primary" role="button">Book now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-4 col-lg-3 mb-4 package-card" data-location="tamilnadu">
+                    <div class="card h-100">
+                        <img src="~/images/tamilnadu/Pamban Bridge & Temple.jpg" class="card-img-top" alt="Ooty">
+                        <div class="card-body">
+                            <h5 class="card-title">Pamban bridge</h5>
+                            <p class="card-text">A beautiful hill station in Tamil Nadu known for tea gardens and cool weather.</p>
+                            <a asp-controller="Home" asp-action="Contact" class="btn btn-primary" role="button">Book now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-4 col-lg-3 mb-4 package-card" data-location="tamilnadu">
+                    <div class="card h-100">
+                        <img src="~/images/tamilnadu/Thanjavur Brihadeeswarar Temple.jpg" class="card-img-top" alt="Ooty">
+                        <div class="card-body">
+                            <h5 class="card-title">Thanjavur big temple</h5>
+                            <p class="card-text">A beautiful hill station in Tamil Nadu known for tea gardens and cool weather.</p>
+                            <a asp-controller="Home" asp-action="Contact" class="btn btn-primary" role="button">Book now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+        
+
+        
+       
+
+    <!-- Kerala-section -->
+
+    <div class="Kerala">
+
+        <div class="row">
+
+            <h4 class="mt-4 mb-3">Kerala Tourist Places</h4>
+
+            <div class="col-6 col-md-4 col-lg-3 mb-4 package-card" data-location="kerala">
+                <div class="card h-100">
+                    <img src="~/images/kerala/Munnar – Tea Plantations.jpg" class="card-img-top" alt="Munnar">
+                    <div class="card-body">
+                        <h5 class="card-title">Munnar</h5>
+                        <p class="card-text">Famous for its lush green hills and tea plantations.</p>
+                        <a asp-controller="Home" asp-action="Contact" class="btn btn-primary" role="button">Book now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3 mb-4 package-card" data-location="kerala">
+                <div class="card h-100">
+                    <img src="~/images/kerala/Alappuzha.jpg" class="card-img-top" alt="Munnar">
+                    <div class="card-body">
+                        <h5 class="card-title">Alappuzha</h5>
+                        <p class="card-text">Famous for its lush green hills and tea plantations.</p>
+                        <a asp-controller="Home" asp-action="Contact" class="btn btn-primary" role="button">Book now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3 mb-4 package-card" data-location="kerala">
+                <div class="card h-100">
+                    <img src="~/images/kerala/Athirappilly – Waterfalls.jpg" class="card-img-top" alt="Munnar">
+                    <div class="card-body">
+                        <h5 class="card-title">Athirappilly</h5>
+                        <p class="card-text">Famous for its lush green hills and tea plantations.</p>
+                        <a asp-controller="Home" asp-action="Contact" class="btn btn-primary" role="button">Book now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3 mb-4 package-card" data-location="kerala">
+                <div class="card h-100">
+                    <img src="~/images/kerala/Fort Kochi – Heritage Street Scene.jpg" class="card-img-top" alt="Munnar">
+                    <div class="card-body">
+                        <h5 class="card-title">Fort Kochi</h5>
+                        <p class="card-text">Famous for its lush green hills and tea plantations.</p>
+                        <a asp-controller="Home" asp-action="Contact" class="btn btn-primary" role="button">Book now</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row">
+
+            <div class="col-6 col-md-4 col-lg-3 mb-4 package-card" data-location="kerala">
+                <div class="card h-100">
+                    <img src="~/images/kerala/Kovalam – Beachside Lighthouse.jpg" class="card-img-top" alt="Munnar">
+                    <div class="card-body">
+                        <h5 class="card-title">Kovalam</h5>
+                        <p class="card-text">Famous for its lush green hills and tea plantations.</p>
+                        <a asp-controller="Home" asp-action="Contact" class="btn btn-primary" role="button">Book now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3 mb-4 package-card" data-location="kerala">
+                <div class="card h-100">
+                    <img src="~/images/kerala/Thekkady – Periyar Wildlife Sanctuary.jpg" class="card-img-top" alt="Munnar">
+                    <div class="card-body">
+                        <h5 class="card-title">Thekkady</h5>
+                        <p class="card-text">Famous for its lush green hills and tea plantations.</p>
+                        <a asp-controller="Home" asp-action="Contact" class="btn btn-primary" role="button">Book now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3 mb-4 package-card" data-location="kerala">
+                <div class="card h-100">
+                    <img src="~/images/kerala/Varkala – Cliff Beach View.jpg" class="card-img-top" alt="Munnar">
+                    <div class="card-body">
+                        <h5 class="card-title">Varkala</h5>
+                        <p class="card-text">Famous for its lush green hills and tea plantations.</p>
+                        <a asp-controller="Home" asp-action="Contact" class="btn btn-primary" role="button">Book now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3 mb-4 package-card" data-location="kerala">
+                <div class="card h-100">
+                    <img src="~/images/kerala/Wayanad – Banasura Sagar Dam & Hills.jpg" class="card-img-top" alt="Munnar">
+                    <div class="card-body">
+                        <h5 class="card-title">Wayanad</h5>
+                        <p class="card-text">Famous for its lush green hills and tea plantations.</p>
+                        <a asp-controller="Home" asp-action="Contact" class="btn btn-primary" role="button">Book now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+    </div>
+
+    <!--Goa-->
+    <div class="Goa">
+        <div class="row">
+            <h4 class="mt-4 mb-3">Goa Tourist Places</h4>
+
+            <div class="col-6 col-md-4 col-lg-3 mb-4 package-card" data-location="goa">
+                <div class="card h-100">
+                    <img src="~/images/goa/Baga Beach.jpg" class="card-img-top" alt="Munnar">
+                    <div class="card-body">
+                        <h5 class="card-title">Baga Beach</h5>
+                        <p class="card-text">Famous for its lush green hills and tea plantations.</p>
+                        <a asp-controller="Home" asp-action="Contact" class="btn btn-primary" role="button">Book now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3 mb-4 package-card" data-location="goa">
+                <div class="card h-100">
+                    <img src="~/images/goa/Basilica of Bom Jesus.jpg" class="card-img-top" alt="Munnar">
+                    <div class="card-body">
+                        <h5 class="card-title">Basilica of Bom Jesus</h5>
+                        <p class="card-text">Famous for its lush green hills and tea plantations.</p>
+                        <a asp-controller="Home" asp-action="Contact" class="btn btn-primary" role="button">Book now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3 mb-4 package-card" data-location="goa">
+                <div class="card h-100">
+                    <img src="~/images/goa/Dudhsagar Waterfalls.jpg" class="card-img-top" alt="Munnar">
+                    <div class="card-body">
+                        <h5 class="card-title">Dudhsagar Waterfalls</h5>
+                        <p class="card-text">Famous for its lush green hills and tea plantations.</p>
+                        <a asp-controller="Home" asp-action="Contact" class="btn btn-primary" role="button">Book now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3 mb-4 package-card" data-location="goa">
+                <div class="card h-100">
+                    <img src="~/images/goa/Palolem Beach.jpg" class="card-img-top" alt="Munnar">
+                    <div class="card-body">
+                        <h5 class="card-title">Palolem Beach</h5>
+                        <p class="card-text">Famous for its lush green hills and tea plantations.</p>
+                        <a asp-controller="Home" asp-action="Contact" class="btn btn-primary" role="button">Book now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <!--Mumbai-->
+    <div class="Mumbai">
+        <div class="row">
+
+            <div class="row">
+                <h4 class="mt-4 mb-3">Mumbai Tourist Places</h4>
+                <div class="col-6 col-md-4 col-lg-3 mb-4 package-card" data-location="mumbai">
+                    <div class="card h-100">
+                        <img src="~/images/mumbai/Gateway of India – Iconic Monument.jpg" class="card-img-top" alt="Munnar">
+                        <div class="card-body">
+                            <h5 class="card-title">Gateway of India</h5>
+                            <p class="card-text">Famous for its lush green hills and tea plantations.</p>
+                            <a asp-controller="Home" asp-action="Contact" class="btn btn-primary" role="button">Book now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-4 col-lg-3 mb-4 package-card" data-location="mumbai">
+                    <div class="card h-100">
+                        <img src="~/images/mumbai/Marine Drive – Queen’s Necklace.jpg" class="card-img-top" alt="Munnar">
+                        <div class="card-body">
+                            <h5 class="card-title">Marine Drive</h5>
+                            <p class="card-text">Famous for its lush green hills and tea plantations.</p>
+                            <a asp-controller="Home" asp-action="Contact" class="btn btn-primary" role="button">Book now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Himachal-->
+    <div class="Himachal">
+        <h4 class="mt-4 mb-3">Himachalpradesh Tourist Places</h4>
+        <div class="row">
+
+            <div class="col-6 col-md-4 col-lg-3 mb-4 package-card" data-location="Himachal">
+                <div class="card h-100">
+                    <img src="~/images/himachal/Kasol – Backpacker’s Paradise.jpg" class="card-img-top" alt="Munnar">
+                    <div class="card-body">
+                        <h5 class="card-title">Kasol – Backpacker’s Paradise</h5>
+                        <p class="card-text">Famous for its lush green hills and tea plantations.</p>
+                        <a asp-controller="Home" asp-action="Contact" class="btn btn-primary" role="button">Book now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3 mb-4 package-card" data-location="Himachal">
+                <div class="card h-100">
+                    <img src="~/images/himachal/Rohtang Pass.jpg" class="card-img-top" alt="Munnar">
+                    <div class="card-body">
+                        <h5 class="card-title">Rohtang Pass</h5>
+                        <p class="card-text">Famous for its lush green hills and tea plantations.</p>
+                        <a asp-controller="Home" asp-action="Contact" class="btn btn-primary" role="button">Book now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3 mb-4 package-card" data-location="Himachal">
+                <div class="card h-100">
+                    <img src="~/images/himachal/Spiti Valley.jpg" class="card-img-top" alt="Munnar">
+                    <div class="card-body">
+                        <h5 class="card-title">Spiti Valley</h5>
+                        <p class="card-text">Famous for its lush green hills and tea plantations.</p>
+                        <a asp-controller="Home" asp-action="Contact" class="btn btn-primary" role="button">Book now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Delhi -->
+    <div class="Delhi">
+        <h4 class="mt-4 mb-3">Delhi Tourist Places</h4>
+        <div class="row">
+
+            <div class="col-6 col-md-4 col-lg-3 mb-4 package-card" data-location="Delhi">
+                <div class="card h-100">
+                    <img src="~/images/delhi/India Gate – Icon of Patriotism.jpg" class="card-img-top" alt="Munnar">
+                    <div class="card-body">
+                        <h5 class="card-title">India Gate</h5>
+                        <p class="card-text">Famous for its lush green hills and tea plantations.</p>
+                        <a asp-controller="Home" asp-action="Contact" class="btn btn-primary" role="button">Book now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3 mb-4 package-card" data-location="Delhi">
+                <div class="card h-100">
+                    <img src="~/images/delhi/Jama Masjid.jpg" class="card-img-top" alt="Munnar">
+                    <div class="card-body">
+                        <h5 class="card-title">Jama Masjid</h5>
+                        <p class="card-text">Famous for its lush green hills and tea plantations.</p>
+                        <a asp-controller="Home" asp-action="Contact" class="btn btn-primary" role="button">Book now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3 mb-4 package-card" data-location="Delhi">
+                <div class="card h-100">
+                    <img src="~/images/delhi/Qutub Minar.jpg" class="card-img-top" alt="Munnar">
+                    <div class="card-body">
+                        <h5 class="card-title">Qutub Minar</h5>
+                        <p class="card-text">Famous for its lush green hills and tea plantations.</p>
+                        <a asp-controller="Home" asp-action="Contact" class="btn btn-primary" role="button">Book now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3 mb-4 package-card" data-location="Delhi">
+                <div class="card h-100">
+                    <img src="~/images/delhi/Red Fort.jpg" class="card-img-top" alt="Munnar">
+                    <div class="card-body">
+                        <h5 class="card-title">Red Fort</h5>
+                        <p class="card-text">Famous for its lush green hills and tea plantations.</p>
+                        <a asp-controller="Home" asp-action="Contact" class="btn btn-primary" role="button">Book now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Rajasthan-->
+
+    <div class="rajathan">
+        <h4 class="mt-4 mb-3">Rajasthan Tourist Places</h4>
+        <div class="row">
+
+            <div class="col-6 col-md-4 col-lg-3 mb-4 package-card" data-location="rajasthan">
+                <div class="card h-100">
+                    <img src="~/images/rajasthan/Amber Fort.jpg" class="card-img-top" alt="Munnar">
+                    <div class="card-body">
+                        <h5 class="card-title">Amber Fort</h5>
+                        <p class="card-text">Famous for its lush green hills and tea plantations.</p>
+                        <a asp-controller="Home" asp-action="Contact" class="btn btn-primary" role="button">Book now</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!--up-->
+    <div class="up">
+        <h4 class="mt-4 mb-3">utterpradesh Tourist Places</h4>
+
+        <div class="row">
+
+            <div class="col-6 col-md-4 col-lg-3 mb-4 package-card" data-location="utterpradesh">
+                <div class="card h-100">
+                    <img src="~/images/up/tajmahal.jpg" class="card-img-top" alt="Munnar">
+                    <div class="card-body">
+                        <h5 class="card-title">tajmahal</h5>
+                        <p class="card-text">Famous for its lush green hills and tea plantations.</p>
+                        <a asp-controller="Home" asp-action="Contact" class="btn btn-primary" role="button">Book now</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Add more cards with data-location attribute like "goa", "rajasthan", etc. -->
+</div>
+
+
